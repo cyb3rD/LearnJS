@@ -7,12 +7,18 @@
 	<script type="text/javascript">
 		var myName = 'Nikolay';
 		console.log(myName);
-		// example of WHILE loop
-		var myCounter = 0;
-		while (myCounter < 10) {
-			console.log(myCounter);
-			myCounter++;
+		
+		//2^10 with while
+		var myPower = 1;
+		var myResult = 2;
+		while (myPower < 10) {
+			myPower++;
+			myResult *= 2;
+			console.log(myPower+":"+myResult);
 		}
+		
+		console.log(myResult);
+		
 	</script>
 	
 	</head>
