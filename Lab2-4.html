@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Sample LabWork</title>
+	
+	<script type="text/javascript">
+		var numOfLines = 4; //Num of lines
+		var mySymbol, mySpace;
+		//console.log(mySpaces+myString);
+		for (var curLine = 1; curLine <= numOfLines; curLine++) 
+		{
+			mySpace = '';
+			//prepare space
+			for (var i = 0; i < (numOfLines - curLine); i++) mySpace += ' ';
+			mySymbol = '';						
+			//prepare symbols *
+			for (var i = 0; i <  curLine * 2 - 1 ; i++) mySymbol +='*';
+			//output each string
+			console.log(mySpace + mySymbol);
+			
+
+		};
+
+	</script>
+	
+	</head>
+
+	
+	<body>
+
+	</body>
+</html>
